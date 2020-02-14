@@ -494,7 +494,7 @@ DECLSPEC void m22500 (SHM_TYPE u32a *s_te0, SHM_TYPE u32a *s_te1, SHM_TYPE u32a 
 
     if ((first_byte != 0x4b) && // K
         (first_byte != 0x4c) && // L
-        (first_byte != 0x51) && // Q
+        (first_byte != 0x79) && // Q
         (first_byte != 0x35) && // 5
         (first_byte != 0x23) && // #
         (first_byte != 0x0a))   // \n
@@ -508,7 +508,7 @@ DECLSPEC void m22500 (SHM_TYPE u32a *s_te0, SHM_TYPE u32a *s_te1, SHM_TYPE u32a 
 
     if ((first_byte == 0x4b) || // K => MultiBit Classic Wallet
         (first_byte == 0x4c) || // L
-        (first_byte == 0x51) || // Q
+        (first_byte == 0x79) || // Q
         (first_byte == 0x35))   // 5
     {
       // base58 check:
