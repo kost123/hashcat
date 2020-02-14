@@ -219,7 +219,7 @@ KERNEL_FQ void m22500_mxx (KERN_ATTR_BASIC ())
 
     if ((first_byte != 0x4b) && // K
         (first_byte != 0x4c) && // L
-        (first_byte != 0x51) && // Q
+        (first_byte != 0x79) && // Q
         (first_byte != 0x35) && // 5
         (first_byte != 0x23) && // #
         (first_byte != 0x0a))   // \n
@@ -233,7 +233,7 @@ KERNEL_FQ void m22500_mxx (KERN_ATTR_BASIC ())
 
     if ((first_byte == 0x4b) || // K => MultiBit Classic Wallet
         (first_byte == 0x4c) || // L
-        (first_byte == 0x51) || // Q
+        (first_byte == 0x79) || // Q
         (first_byte == 0x35))   // 5
     {
       // base58 check:
@@ -521,7 +521,7 @@ KERNEL_FQ void m22500_sxx (KERN_ATTR_BASIC ())
 
     if ((first_byte != 0x4b) && // K
         (first_byte != 0x4c) && // L
-        (first_byte != 0x51) && // Q
+        (first_byte != 0x79) && // Q
         (first_byte != 0x35) && // 5
         (first_byte != 0x23) && // #
         (first_byte != 0x0a))   // \n
@@ -535,7 +535,7 @@ KERNEL_FQ void m22500_sxx (KERN_ATTR_BASIC ())
 
     if ((first_byte == 0x4b) || // K => MultiBit Classic Wallet
         (first_byte == 0x4c) || // L
-        (first_byte == 0x51) || // Q
+        (first_byte == 0x79) || // Q
         (first_byte == 0x35))   // 5
     {
       // base58 check:
